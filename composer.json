@@ -5,7 +5,6 @@
     "keywords": ["yii2","extension"," taobao"," top"," aliyun"," alidayu"," sdk"],
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "hbhe",
