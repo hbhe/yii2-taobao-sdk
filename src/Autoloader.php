@@ -1,5 +1,4 @@
 <?php
-namespace hbhe;
 
 class Autoloader{
   
