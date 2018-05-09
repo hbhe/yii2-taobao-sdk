@@ -1,6 +1,6 @@
-Yii2 taobao sdk
+Yii2 taobao sdk 
 ===============
-Yii2 taobao sdk
+淘宝开放平台 Yii2 SDK
 
 Installation
 ------------
@@ -28,4 +28,14 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \hbhe\taobao\AutoloadExample::widget(); ?>```
+<?php
+require_once(Yii::getAlias("@hbhe/yii2-taobao-sdk/TopSdk.php"));
+$c = new \TopClient;
+$c->appkey = 'key-xxxx';
+$c->secretKey = 'secret-xxxx';
+$req = new \UserSellerGetRequest;
+$req->setFields("user_id,uid,nick,sex,avatar,has_shop,vip_info,email");
+$resp = $c->execute($req, 'session-xxxx');
+Yii::error($resp);
+
+?>```
