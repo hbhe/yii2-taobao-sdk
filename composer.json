@@ -1,0 +1,21 @@
+{
+    "name": "hbhe/yii2-taobao-sdk",
+    "description": "Yii2 taobao sdk",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," taobao"," top"," aliyun"," alidayu"," sdk"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "hbhe",
+            "email": "57620133@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hbhe\\taobao\\": ""
+        }
+    }
+}
