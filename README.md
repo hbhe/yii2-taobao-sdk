@@ -39,3 +39,5 @@ $resp = $c->execute($req, 'session-xxxx');
 Yii::error($resp);
 
 ?>```
+
+如果src目录内缺少你需要的接口文件，你可以在淘宝后台下载对应权限的SDK包，然后将文件直接copy到src目录下即可
